@@ -1,6 +1,5 @@
 - name: configure mysql server
-  hosts:  mysql
+  hosts: mysql
   become: yes
   roles:
   - mysql
-  
